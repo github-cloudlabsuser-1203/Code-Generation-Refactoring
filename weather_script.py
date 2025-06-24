@@ -1,3 +1,15 @@
+# This script fetches and displays current weather information for a given city using the OpenWeatherMap API.
+# It retrieves temperature, humidity, and weather conditions, and handles API errors gracefully.
+# Requires the 'requests' library and a valid OpenWeatherMap API key.
+# Usage: Run the script and enter a city name when prompted.
+# Example: python weather_script.py
+# Author: [Your Name]
+# Date: 2025-06-24
+#
+# API documentation: https://openweathermap.org/current
+#
+# Note: Replace the API_KEY variable with your own key if needed.
+
 # Fetch weather data from OpenWeatherMap API
 import requests
 
